@@ -47,10 +47,14 @@ export const PokemonModal: React.FC<ComponentProps> = (props) =>  {
         aria-describedby="modal-modal-description"
       >
         <Box sx={style}>
+
+          <Typography variant="h5" color="bold" sx={{ mb:1 }}>
+            {props.pokemon.name.replace(props.pokemon.name.charAt(0), props.pokemon.name.charAt(0).toUpperCase())}
+          </Typography>
           
           <img width={200} src={props.pokemon.sprites.other.dream_world.front_default} alt={`${props.pokemon.name} illustration`}/>
 
-          <Typography variant="body2" color="text.secondary">
+          <Typography variant="body2" color="bold">
             NO: {props.pokemon.id}. HT: {props.pokemon.height}. WT: {props.pokemon.weight}.
           </Typography>
 
