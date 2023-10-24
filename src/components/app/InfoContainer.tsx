@@ -33,7 +33,7 @@ export const InfoContainer: React.FunctionComponent<Props> = ({ pokemon }) => {
     axios.get(url1).then((res) => {
       let results = res.data
       const move1 = results.flavor_text_entries[1].flavor_text
-      // console.log(results.flavor_text_entries[0].flavor_text);
+
       setMoves(prevState => {
         return  { ...prevState, move1: move1 }
       });      
@@ -69,7 +69,6 @@ export const InfoContainer: React.FunctionComponent<Props> = ({ pokemon }) => {
   if (pokemon) {
 
     let name = pokemon.name.replace(pokemon.name.charAt(0), pokemon.name.charAt(0).toUpperCase())
-    // console.log("abilities: ", pokemon.abilities);
     
 
     return (
