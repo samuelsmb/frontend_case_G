@@ -163,6 +163,7 @@ const App = () => {
             <MenuItem value={30}>30</MenuItem>
             <MenuItem value={50}>50</MenuItem>
             <MenuItem value={100}>100</MenuItem>
+            <MenuItem value={1292}>All</MenuItem>
 
           </Select>
         </FormControl>
