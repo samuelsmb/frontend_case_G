@@ -8,8 +8,8 @@ Benyttet meg av det ved fetching av data ved noen tilfeller<br></br>
 https://www.npmjs.com/package/axios
 </bullet>
 
-## Designsystem/Komponentbibliotek
-### Material UI
+### Designsystem/Komponentbibliotek
+#### Material UI
 <bullet>
 https://mui.com/
 </bullet>
@@ -21,3 +21,4 @@ https://mui.com/
 <bullet>Har også en søkespalte hvor du kan søke etter en spesifikk pokemon.</bullet>
 
 <bullet>Dersom man trykker på ett av pokemonkortene, så kommer det en liten sidevisning (Modal) som viser noe mer informasjon om pokemonen enn det som står på forsiden av pokemonkortet.</bullet>
+
